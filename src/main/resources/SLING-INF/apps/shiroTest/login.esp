@@ -1,0 +1,9 @@
+
+<html>
+Remote User: <%=request.getRemoteUser()%><br/>
+<form action="<%=request.getContextPath()%>/servlet/pop/shiro.save" method="POST">
+Username : <input type="text" name="username" />
+Password : <input type="text" name="password" />
+<input type="submit" value="submit"  />
+</form>
+</html>
